@@ -1,0 +1,12 @@
+.photo-grid__list {
+  box-sizing: border-box;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(4, 23.9864864865%);
+  grid-template-rows: repeat(auto-fill, 213px);
+  grid-auto-rows: 213px;
+  justify-content: space-between;
+  gap: 16px;
+}

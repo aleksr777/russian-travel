@@ -1,0 +1,11 @@
+.link {
+  color: #fff;
+  text-decoration: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  transition: all 0.4s ease 0s;
+}
+
+.link:hover {
+  opacity: 0.8;
+}

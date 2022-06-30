@@ -1,0 +1,7 @@
+.to-baikal__container {
+  overflow: hidden;
+  box-sizing: border-box;
+  max-width: 1280px;
+  padding: 0;
+  margin: 0 auto;
+}

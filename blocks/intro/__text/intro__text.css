@@ -1,0 +1,8 @@
+.intro__text {
+  box-sizing: border-box;
+  max-width: 690px;
+  margin: 0 0 33px 0;
+  padding: 0;
+  font-size: 16px;
+  line-height: 1.63;
+}

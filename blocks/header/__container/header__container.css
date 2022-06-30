@@ -1,0 +1,10 @@
+.header__container {
+  overflow: hidden;
+  box-sizing: border-box;
+  max-width: 1280px;
+  padding: 0 48px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}

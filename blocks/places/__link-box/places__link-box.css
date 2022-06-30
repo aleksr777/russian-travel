@@ -1,0 +1,6 @@
+.places__link-box {
+  box-sizing: border-box;
+  grid-column: 2/3;
+  grid-row: 1/2;
+  align-self: flex-end;
+}

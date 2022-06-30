@@ -1,0 +1,9 @@
+.lead__decorative-image {
+  position: absolute;
+  left: 50%;
+  top: 36%;
+  transform: translate(-50%, -50%);
+  width: 95.3%;
+  max-height: 100%;
+  z-index: 1;
+}
