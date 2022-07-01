@@ -1,0 +1,7 @@
+.place__title {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  grid-column: 1/2;
+  grid-row: 1/2;
+}

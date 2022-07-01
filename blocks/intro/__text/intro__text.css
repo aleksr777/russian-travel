@@ -1,8 +1,9 @@
 .intro__text {
-  box-sizing: border-box;
-  max-width: 690px;
+  grid-column: 2/3;
   margin: 0 0 33px 0;
   padding: 0;
+  box-sizing: border-box;
+  max-width: 690px;
   font-size: 16px;
   line-height: 1.63;
 }

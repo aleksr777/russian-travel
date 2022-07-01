@@ -1,8 +1,9 @@
 .photo-grid__list {
+  grid-column: 2/3;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
   list-style-type: none;
-  padding: 0;
-  margin: 0;
   display: grid;
   grid-template-columns: repeat(4, 23.9864864865%);
   grid-template-rows: repeat(auto-fill, 213px);

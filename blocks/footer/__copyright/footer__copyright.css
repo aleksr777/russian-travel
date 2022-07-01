@@ -1,9 +1,10 @@
 .footer__copyright {
+  grid-column: 3/4;
+  align-self: flex-end;
+  justify-self: flex-end;
   padding: 0;
   margin: 0;
   text-align: right;
-  flex: 1 1 auto;
   font-size: 14px;
   line-height: 1.12;
-  align-self: center;
 }

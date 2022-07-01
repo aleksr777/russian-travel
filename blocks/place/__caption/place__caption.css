@@ -1,0 +1,9 @@
+.place__caption {
+  margin: 0 0 12px 0;
+  padding: 0;
+  font-size: 12px;
+  line-height: 1.7;
+  letter-spacing: 2px;
+  color: #aaaaaa;
+  text-transform: uppercase;
+}

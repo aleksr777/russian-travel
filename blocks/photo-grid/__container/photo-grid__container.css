@@ -1,7 +1,9 @@
 .photo-grid__container {
-  overflow: hidden;
+  margin: 0 auto;
+  padding: 0;
   box-sizing: border-box;
   max-width: 1280px;
-  padding: 0 48px;
-  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 48px 1fr 48px;
+  grid-template-rows: minmax(min-content, max-content);
 }

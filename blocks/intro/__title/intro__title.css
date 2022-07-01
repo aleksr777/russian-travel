@@ -1,4 +1,5 @@
 .intro__title {
+  grid-column: 2/3;
   box-sizing: border-box;
   max-width: 690px;
   font-weight: 900;

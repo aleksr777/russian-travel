@@ -1,8 +1,9 @@
 .lead__title {
+  grid-column: 2/3;
+  margin: 0 auto 32px auto;
+  padding: 0 24px;
   box-sizing: border-box;
   text-align: center;
-  padding: 0 24px;
-  margin: 0 auto 32px auto;
   max-width: 768px;
   font-weight: 900;
   font-size: 96px;

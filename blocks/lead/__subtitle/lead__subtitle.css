@@ -1,7 +1,7 @@
 .lead__subtitle {
+  grid-column: 2/3;
   box-sizing: border-box;
   text-align: center;
-  padding: 0 16px;
   margin: 0 auto 64px auto;
   max-width: 675px;
   font-weight: 400;

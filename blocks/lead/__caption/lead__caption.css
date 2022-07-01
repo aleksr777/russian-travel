@@ -1,4 +1,5 @@
 .lead__caption {
+  grid-column: 2/3;
   box-sizing: border-box;
   font-size: 10px;
   line-height: 1.4;

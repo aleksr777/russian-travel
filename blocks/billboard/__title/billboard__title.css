@@ -1,0 +1,6 @@
+.billboard__title {
+  margin: 0 auto 32px auto;
+  box-sizing: border-box;
+  max-width: 560px;
+  text-align: center;
+}

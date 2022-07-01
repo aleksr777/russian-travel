@@ -1,9 +1,0 @@
-.places__item {
-  box-sizing: border-box;
-  display: grid;
-  justify-content: space-between;
-  grid-template-columns: 46.7479674797% 49.1869918699%;
-  grid-template-rows: repeat(2, minmax(min-content, max-content));
-  gap: 32px 28px;
-  align-items: flex-start;
-}

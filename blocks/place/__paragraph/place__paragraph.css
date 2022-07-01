@@ -1,0 +1,9 @@
+.place__paragraph {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.place__paragraph:not(:last-of-type) {
+  margin-bottom: 26px;
+}
