@@ -1,9 +1,0 @@
-.footer__container {
-  box-sizing: border-box;
-  max-width: 1280px;
-  margin: 0 auto;
-  display: grid;
-  gap: 48px 15px;
-  grid-template-columns: 33px 1fr minmax(min-content, max-content) 33px;
-  grid-template-rows: minmax(min-content, max-content);
-}

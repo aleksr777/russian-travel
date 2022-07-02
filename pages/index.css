@@ -4,6 +4,12 @@
 
 @import url(../blocks/root/root.css);
 
+@import url(../blocks/link/link.css);
+
+@import url(../blocks/title/title.css);
+
+@import url(../blocks/adaptiv-image/adaptiv-image.css);
+
 @import url(../blocks/page/page.css);
 @import url(../blocks/page/__header/page__header.css);
 @import url(../blocks/page/__main/page__main.css);
@@ -14,11 +20,9 @@
 @import url(../blocks/header/__lang-link/header__lang-link.css);
 @import url(../blocks/header/__lang-link/_active/header__lang-link_active.css);
 @import url(../blocks/header/__icon/header__icon.css);
-@import url(../blocks/header/__container/header__container.css);
 
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/lead/__caption/lead__caption.css);
-@import url(../blocks/lead/__container/lead__container.css);
 @import url(../blocks/lead/__image/lead__image.css);
 @import url(../blocks/lead/__subtitle/lead__subtitle.css);
 @import url(../blocks/lead/__title/lead__title.css);
@@ -29,16 +33,13 @@
 @import url(../blocks/intro/__list-text/intro__list-text.css);
 @import url(../blocks/intro/__list-statistics/intro__list-statistics.css);
 @import url(../blocks/intro/__list-number/intro__list-number.css);
-@import url(../blocks/intro/__container/intro__container.css);
 
 @import url(../blocks/photo-grid/photo-grid.css);
 @import url(../blocks/photo-grid/__list/photo-grid__list.css);
 @import url(../blocks/photo-grid/__item/photo-grid__item.css);
-@import url(../blocks/photo-grid/__container/photo-grid__container.css);
 
 @import url(../blocks/places/places.css);
 @import url(../blocks/places/__list/places__list.css);
-@import url(../blocks/places/__container/places__container.css);
 
 @import url(../blocks/place/place.css);
 @import url(../blocks/place/__title/place__title.css);
@@ -50,369 +51,14 @@
 @import url(../blocks/place/__block-text/place__block-text.css);
 
 @import url(../blocks/billboard/billboard.css);
+@import url(../blocks/billboard/__link/billboard__link.css);
 @import url(../blocks/billboard/__title/billboard__title.css);
 @import url(../blocks/billboard/__text-block/billboard__text-block.css);
 @import url(../blocks/billboard/__subtitle/billboard__subtitle.css);
 @import url(../blocks/billboard/__image/billboard__image.css);
-@import url(../blocks/billboard/__container/billboard__container.css);
 
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__menu/footer__menu.css);
 @import url(../blocks/footer/__list-links/footer__list-links.css);
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
-@import url(../blocks/footer/__container/footer__container.css);
-
-@import url(../blocks/link/link.css);
-
-@import url(../blocks/title/title.css);
-
-@import url(../blocks/adaptiv-image/adaptiv-image.css);
-
-@media (max-width: 1085.7931034483px) {
-  .header {
-    padding: 28px 0;
-  }
-
-  .lead {
-    padding: 20px 0 68px 0;
-  }
-
-  .lead__container {
-    grid-template-columns: 1fr calc((928 / 1024) * 100%) 1fr;
-  }
-
-  .lead__subtitle {
-    margin: 0 auto 56px auto;
-  }
-
-  .intro__container {
-    grid-template-columns: calc(48 / 1024 * 100%) 1fr calc(48 / 1024 * 100%);
-  }
-
-  .photo-grid__list {
-    grid-template-columns: repeat(3, 32.3275862069%);
-    grid-template-rows: repeat(auto-fill, 225px);
-    grid-auto-rows: 225px;
-    gap: 14px;
-  }
-
-  .places__container {
-    grid-template-columns: calc(48 / 1024 * 100%) 1fr calc(48 / 1024 * 100%);
-  }
-
-  .place {
-    grid-template-columns: 47.4137931034% 49.1379310345%;
-  }
-}
-
-@media (max-width: 940px) {
-  .place__title {
-    font-size: 62px;
-  }
-
-  .footer__container {
-    grid-template-columns: 21px 1fr minmax(min-content, max-content) 21px;
-  }
-}
-
-@media (max-width: 847.4482758621px) {
-  .header__container {
-    grid-template-columns: 3.125% 1fr 1fr 3.125%;
-  }
-
-  .lead__container {
-    grid-template-columns: 1fr 768px 1fr;
-  }
-
-  .lead__title {
-    padding: 0 3.125%;
-  }
-
-  .lead__subtitle {
-    padding: 0 3.125%;
-  }
-
-  .lead__caption {
-    padding: 0 3.125%;
-  }
-
-  .intro {
-    padding: 20px 0 68px 0;
-  }
-
-  .intro__container {
-    grid-template-columns: calc(24 / 768 * 100%) 1fr calc(24 / 768 * 100%);
-  }
-
-  .photo-grid {
-    padding: 20px 0 68px 0;
-  }
-
-  .photo-grid__container {
-    grid-template-columns: calc(24 / 768 * 100%) 1fr calc(24 / 768 * 100%);
-  }
-
-  .photo-grid__list {
-    grid-template-columns: repeat(2, 48.8888888889%);
-    grid-template-rows: repeat(auto-fill, 264px);
-    grid-auto-rows: 264px;
-    gap: 16px;
-  }
-
-  .places {
-    padding: 20px 0 70px 0;
-  }
-
-  .places__container {
-    grid-template-columns: calc(24 / 768 * 100%) 1fr calc(24 / 768 * 100%);
-  }
-
-  .place {
-    grid-template-columns: 47.2222222222% 48.8888888889%;
-  }
-
-  .place__title {
-    font-size: 42px;
-    line-height: 1.1;
-  }
-
-  .place__block-text {
-    font-size: 16px;
-  }
-
-  .place__caption {
-    line-height: 1;
-  }
-
-  .billboard {
-    padding: 20px 0 68px 0;
-  }
-
-  .footer__container {
-    grid-template-columns: 9px 1fr minmax(min-content, max-content) 9px;
-  }
-}
-
-@media (max-width: 768px) {
-  .lead__container {
-    display: block;
-  }
-
-  .billboard__container::after {
-    transition: none;
-  }
-
-  .billboard__container:hover::after {
-    opacity: 0.3;
-  }
-
-  .link {
-    transition: none;
-  }
-
-  .link:hover {
-    opacity: 1;
-  }
-}
-
-@media (max-width: 730px) {
-  .lead__title {
-    font-size: 80px;
-  }
-
-  .footer__container {
-    grid-template-columns: 1px 1fr 1px;
-    grid-template-rows: repeat(2, minmax(min-content, max-content));
-  }
-
-  .footer__menu {
-    grid-column: 2/3;
-    grid-row: 1/2;
-  }
-
-  .footer__copyright {
-    grid-column: 2/3;
-    grid-row: 2/3;
-  }
-}
-
-@media (max-width: 620px) {
-  .lead__title {
-    font-size: 70px;
-  }
-
-  .lead__subtitle {
-    font-size: 25px;
-  }
-
-  .intro__container {
-    display: block;
-    padding: 0 16px;
-  }
-
-  .intro__title {
-    font-size: 38px;
-  }
-
-  .places__container {
-    display: block;
-  }
-
-  .place {
-    display: flex;
-    flex-direction: column;
-    gap: 32px;
-  }
-
-  .place__title {
-    padding: 0 16px;
-  }
-
-  .place__link-box {
-    padding: 0 16px;
-    align-self: flex-start;
-  }
-
-  .place__block-text {
-    padding: 0 16px;
-  }
-
-  .billboard__title {
-    font-size: 55px;
-    margin: 0 auto 16px auto;
-    width: 400px;
-  }
-}
-
-@media (max-width: 540px) {
-  .header__container {
-    grid-template-columns: 16px 1fr 1fr 16px;
-  }
-
-  .header__icon {
-    max-width: 142px;
-    max-height: 42px;
-  }
-
-  .header__lang-link {
-    line-height: 1.11;
-    font-size: 18px;
-  }
-
-  .lead {
-    padding: 20px 0 44px 0;
-  }
-
-  .lead__title {
-    margin: 0 0 16px 0;
-    font-size: 50px;
-  }
-
-  .lead__subtitle {
-    margin: 0 0 40px 0;
-    font-size: 20px;
-  }
-
-  .intro {
-    padding: 20px 0 44px 0;
-  }
-
-  .intro__title {
-    font-size: 36px;
-  }
-
-  .photo-grid {
-    padding: 20px 0 44px 0;
-  }
-
-  .photo-grid__container {
-    grid-template-columns: 16px 1fr 16px;
-  }
-
-  .photo-grid__list {
-    display: block;
-  }
-
-  .photo-grid__item {
-    display: block;
-    width: 100%;
-    height: 216px;
-  }
-
-  .photo-grid__item:not(:last-of-type) {
-    margin-bottom: 12px;
-  }
-
-  .places {
-    padding: 20px 0 46px 0;
-  }
-
-  .billboard {
-    padding: 20px 0 44px 0;
-  }
-
-  .billboard__title {
-    font-size: 40px;
-    width: 300px;
-  }
-
-  .footer__list-links {
-    flex-direction: column;
-    text-align: left;
-    align-items: flex-start;
-    line-height: 1;
-    row-gap: 32px;
-    font-size: 24px;
-  }
-
-  .footer__copyright {
-    flex: 1 1 100%;
-    text-align: left;
-    line-height: 1;
-    justify-self: flex-start;
-    text-align: left;
-  }
-}
-
-@media (max-width: 420px) {
-  .lead__title {
-    padding: 0 16px;
-    font-size: 40px;
-    line-height: 1.1;
-    padding: 0;
-  }
-
-  .lead__subtitle {
-    font-size: 16px;
-    line-height: 1.25;
-    padding: 0 16px;
-  }
-
-  .lead__caption {
-    padding: 0 16px;
-  }
-
-  .intro__title {
-    font-size: 32px;
-    line-height: 1.09;
-  }
-
-  .place__title {
-    font-size: 32px;
-    line-height: 1.09;
-  }
-
-  .billboard__title {
-    font-size: 32px;
-    line-height: 1.09;
-    max-width: 280px;
-    padding: 0 15px;
-  }
-
-  .billboard__subtitle {
-    width: 85%;
-    font-size: 14px;
-    line-height: 1.14;
-  }
-}

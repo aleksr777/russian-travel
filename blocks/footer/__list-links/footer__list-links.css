@@ -8,3 +8,14 @@
   flex-wrap: wrap;
   gap: 18px;
 }
+
+@media (max-width: 540px) {
+  .footer__list-links {
+    flex-direction: column;
+    text-align: left;
+    align-items: flex-start;
+    line-height: 1;
+    row-gap: 32px;
+    font-size: 24px;
+  }
+}

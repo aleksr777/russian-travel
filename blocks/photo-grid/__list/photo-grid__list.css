@@ -11,3 +11,27 @@
   justify-content: space-between;
   gap: 16px;
 }
+
+@media (max-width: 1085.7931034483px) {
+  .photo-grid__list {
+    grid-template-columns: repeat(3, 32.3275862069%);
+    grid-template-rows: repeat(auto-fill, 225px);
+    grid-auto-rows: 225px;
+    gap: 14px;
+  }
+}
+
+@media (max-width: 847.4482758621px) {
+  .photo-grid__list {
+    grid-template-columns: repeat(2, 48.8888888889%);
+    grid-template-rows: repeat(auto-fill, 264px);
+    grid-auto-rows: 264px;
+    gap: 16px;
+  }
+}
+
+@media (max-width: 540px) {
+  .photo-grid__list {
+    display: block;
+  }
+}

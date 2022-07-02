@@ -1,9 +1,0 @@
-.intro__container {
-  margin: 0 auto;
-  padding: 0;
-  box-sizing: border-box;
-  max-width: 1280px;
-  display: grid;
-  grid-template-columns: 1fr 984px 1fr;
-  grid-template-rows: repeat(minmax(min-content, max-content));
-}

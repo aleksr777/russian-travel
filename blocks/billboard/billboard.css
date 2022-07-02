@@ -1,5 +1,18 @@
 .billboard {
-  box-sizing: border-box;
-  margin: 0;
+  margin: 0 auto;
   padding: 20px 0 72px 0;
+  box-sizing: border-box;
+  max-width: 1280px;
+}
+
+@media (max-width: 847.4482758621px) {
+  .billboard {
+    padding: 20px 0 68px 0;
+  }
+}
+
+@media (max-width: 540px) {
+  .billboard {
+    padding: 20px 0 44px 0;
+  }
 }

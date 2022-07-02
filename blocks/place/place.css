@@ -8,3 +8,23 @@
   gap: 32px 28px;
   align-items: flex-start;
 }
+
+@media (max-width: 1085.7931034483px) {
+  .place {
+    grid-template-columns: 47.4137931034% 49.1379310345%;
+  }
+}
+
+@media (max-width: 847.4482758621px) {
+  .place {
+    grid-template-columns: 47.2222222222% 48.8888888889%;
+  }
+}
+
+@media (max-width: 620px) {
+  .place {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+  }
+}

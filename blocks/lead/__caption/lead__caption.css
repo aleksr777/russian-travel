@@ -8,3 +8,15 @@
   padding: 0;
   margin: 0;
 }
+
+@media (max-width: 847.4482758621px) {
+  .lead__caption {
+    padding: 0 3.125%;
+  }
+}
+
+@media (max-width: 420px) {
+  .lead__caption {
+    padding: 0 16px;
+  }
+}

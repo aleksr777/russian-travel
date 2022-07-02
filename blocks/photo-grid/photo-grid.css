@@ -1,4 +1,23 @@
 .photo-grid {
-  box-sizing: border-box;
+  margin: 0 auto;
   padding: 20px 0 72px 0;
+  max-width: 1280px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 48px 1fr 48px;
+  grid-template-rows: minmax(min-content, max-content);
+}
+
+@media (max-width: 847.4482758621px) {
+  .photo-grid {
+    padding: 20px 0 68px 0;
+    grid-template-columns: calc(24 / 768 * 100%) 1fr calc(24 / 768 * 100%);
+  }
+}
+
+@media (max-width: 540px) {
+  .photo-grid {
+    padding: 20px 0 44px 0;
+    grid-template-columns: 16px 1fr 16px;
+  }
 }

@@ -4,3 +4,10 @@
   grid-row: 1/2;
   align-self: flex-end;
 }
+
+@media (max-width: 620px) {
+  .place__link-box {
+    padding: 0 16px;
+    align-self: flex-start;
+  }
+}

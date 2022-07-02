@@ -8,3 +8,20 @@
   font-size: 14px;
   line-height: 1.12;
 }
+
+@media (max-width: 730px) {
+  .footer__copyright {
+    grid-column: 2/3;
+    grid-row: 2/3;
+  }
+}
+
+@media (max-width: 540px) {
+  .footer__copyright {
+    flex: 1 1 100%;
+    text-align: left;
+    line-height: 1;
+    justify-self: flex-start;
+    text-align: left;
+  }
+}

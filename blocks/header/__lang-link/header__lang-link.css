@@ -4,3 +4,10 @@
   margin: 0;
   padding: 0;
 }
+
+@media (max-width: 540px) {
+  .header__lang-link {
+    line-height: 1.11;
+    font-size: 18px;
+  }
+}

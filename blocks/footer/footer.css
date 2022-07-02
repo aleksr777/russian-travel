@@ -1,4 +1,30 @@
 .footer {
-  box-sizing: border-box;
+  margin: 0 auto;
   padding: 20px 0 24px 0;
+  max-width: 1280px;
+  width: 100%;
+  box-sizing: border-box;
+  display: grid;
+  gap: 48px 15px;
+  grid-template-columns: 33px 1fr minmax(min-content, max-content) 33px;
+  grid-template-rows: minmax(min-content, max-content);
+}
+
+@media (max-width: 940px) {
+  .footer {
+    grid-template-columns: 21px 1fr minmax(min-content, max-content) 21px;
+  }
+}
+
+@media (max-width: 847.4482758621px) {
+  .footer {
+    grid-template-columns: 9px 1fr minmax(min-content, max-content) 9px;
+  }
+}
+
+@media (max-width: 730px) {
+  .footer {
+    grid-template-columns: 1px 1fr 1px;
+    grid-template-rows: repeat(2, minmax(min-content, max-content));
+  }
 }

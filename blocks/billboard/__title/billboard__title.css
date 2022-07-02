@@ -1,6 +1,33 @@
 .billboard__title {
   margin: 0 auto 32px auto;
+  padding: 0;
   box-sizing: border-box;
   max-width: 560px;
-  text-align: center;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 1.06;
+}
+
+@media (max-width: 620px) {
+  .billboard__title {
+    font-size: 58px;
+    margin: 0 auto 16px auto;
+    width: 420px;
+  }
+}
+
+@media (max-width: 540px) {
+  .billboard__title {
+    font-size: 44px;
+    width: 310px;
+  }
+}
+
+@media (max-width: 420px) {
+  .billboard__title {
+    font-size: 32px;
+    line-height: 1.09;
+    max-width: 280px;
+    padding: 0 15px;
+  }
 }

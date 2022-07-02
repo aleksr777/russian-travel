@@ -4,6 +4,12 @@
   font-size: 12px;
   line-height: 1.7;
   letter-spacing: 2px;
-  color: #aaaaaa;
+  color: #aaa;
   text-transform: uppercase;
+}
+
+@media (max-width: 847.4482758621px) {
+  .place__caption {
+    line-height: 1;
+  }
 }

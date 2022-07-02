@@ -1,7 +1,34 @@
 .place__title {
   box-sizing: border-box;
+  overflow: hidden;
   padding: 0;
   margin: 0;
   grid-column: 1/2;
   grid-row: 1/2;
+}
+
+@media (max-width: 940px) {
+  .place__title {
+    font-size: 62px;
+  }
+}
+
+@media (max-width: 847.4482758621px) {
+  .place__title {
+    font-size: 42px;
+    line-height: 1.1;
+  }
+}
+
+@media (max-width: 620px) {
+  .place__title {
+    padding: 0 16px;
+  }
+}
+
+@media (max-width: 420px) {
+  .place__title {
+    font-size: 32px;
+    line-height: 1.09;
+  }
 }

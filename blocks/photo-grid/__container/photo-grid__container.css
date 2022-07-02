@@ -1,9 +1,0 @@
-.photo-grid__container {
-  margin: 0 auto;
-  padding: 0;
-  box-sizing: border-box;
-  max-width: 1280px;
-  display: grid;
-  grid-template-columns: 48px 1fr 48px;
-  grid-template-rows: minmax(min-content, max-content);
-}

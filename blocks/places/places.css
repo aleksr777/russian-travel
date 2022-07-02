@@ -1,4 +1,35 @@
 .places {
-  box-sizing: border-box;
+  margin: 0 auto;
   padding: 20px 0 72px 0;
+  box-sizing: border-box;
+  max-width: 1280px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 984px 1fr;
+  grid-template-rows: repeat(minmax(min-content, max-content));
+}
+
+@media (max-width: 1085.7931034483px) {
+  .places {
+    grid-template-columns: calc(48 / 1024 * 100%) 1fr calc(48 / 1024 * 100%);
+  }
+}
+
+@media (max-width: 847.4482758621px) {
+  .places {
+    padding: 20px 0 70px 0;
+    grid-template-columns: calc(24 / 768 * 100%) 1fr calc(24 / 768 * 100%);
+  }
+}
+
+@media (max-width: 620px) {
+  .places {
+    display: block;
+  }
+}
+
+@media (max-width: 540px) {
+  .places {
+    padding: 20px 0 46px 0;
+  }
 }
