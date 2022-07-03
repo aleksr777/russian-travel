@@ -3,7 +3,6 @@
   display: grid;
   min-height: 100vh;
   width: 100%;
-  overflow: hidden;
   grid-template-columns: 1fr;
   grid-template-rows: minmax(min-content, max-content) 1fr minmax(min-content, max-content);
   grid-template-areas: "header" "main" "footer";

@@ -1,8 +1,6 @@
 .lead__subtitle {
   grid-column: 2/3;
   box-sizing: border-box;
-  overflow: hidden;
-  text-align: center;
   margin: 0 auto 64px auto;
   max-width: 640px;
   font-weight: 400;
@@ -17,7 +15,7 @@
   }
 }
 
-@media (max-width: 847.4482758621px) {
+@media (max-width: 847px) {
   .lead__subtitle {
     padding: 0 3.125%;
   }

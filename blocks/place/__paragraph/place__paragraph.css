@@ -1,9 +1,17 @@
 .place__paragraph {
   box-sizing: border-box;
+  font-size: 18px;
+  line-height: 1.63;
   margin: 0;
   padding: 0;
 }
 
 .place__paragraph:not(:last-of-type) {
   margin-bottom: 26px;
+}
+
+@media (max-width: 847px) {
+  .place__paragraph {
+    font-size: 16px;
+  }
 }

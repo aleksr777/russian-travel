@@ -1,8 +1,0 @@
-.billboard__text-block {
-  grid-column: 2/3;
-  grid-row: 2/3;
-  position: relative;
-  z-index: 2;
-  box-sizing: border-box;
-  text-align: center;
-}

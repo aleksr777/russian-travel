@@ -21,7 +21,7 @@
   }
 }
 
-@media (max-width: 847.4482758621px) {
+@media (max-width: 847px) {
   .photo-grid__list {
     grid-template-columns: repeat(2, 48.8888888889%);
     grid-template-rows: repeat(auto-fill, 264px);

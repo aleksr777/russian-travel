@@ -1,6 +1,5 @@
 .place__title {
   box-sizing: border-box;
-  overflow: hidden;
   padding: 0;
   margin: 0;
   grid-column: 1/2;
@@ -13,7 +12,7 @@
   }
 }
 
-@media (max-width: 847.4482758621px) {
+@media (max-width: 847px) {
   .place__title {
     font-size: 42px;
     line-height: 1.1;

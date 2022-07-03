@@ -16,7 +16,7 @@
   }
 }
 
-@media (max-width: 847.4482758621px) {
+@media (max-width: 847px) {
   .lead {
     grid-template-columns: 1fr 768px 1fr;
   }

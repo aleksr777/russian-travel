@@ -4,7 +4,6 @@
 
 @media (max-width: 730px) {
   .footer__menu {
-    grid-column: 2/3;
     grid-row: 1/2;
   }
 }

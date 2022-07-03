@@ -17,7 +17,7 @@
   }
 }
 
-@media (max-width: 847.4482758621px) {
+@media (max-width: 847px) {
   .header {
     grid-template-columns: 3.125% 1fr 1fr 3.125%;
   }

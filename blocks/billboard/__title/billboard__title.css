@@ -1,4 +1,6 @@
 .billboard__title {
+  position: relative;
+  z-index: 2;
   margin: 0 auto 32px auto;
   padding: 0;
   box-sizing: border-box;

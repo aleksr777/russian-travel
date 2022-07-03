@@ -1,4 +1,6 @@
 .billboard__subtitle {
+  position: relative;
+  z-index: 2;
   margin: 0 auto;
   padding: 0;
   font-size: 18px;

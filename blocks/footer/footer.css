@@ -16,7 +16,7 @@
   }
 }
 
-@media (max-width: 847.4482758621px) {
+@media (max-width: 847px) {
   .footer {
     grid-template-columns: 9px 1fr minmax(min-content, max-content) 9px;
   }

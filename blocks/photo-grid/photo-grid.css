@@ -8,7 +8,7 @@
   grid-template-rows: minmax(min-content, max-content);
 }
 
-@media (max-width: 847.4482758621px) {
+@media (max-width: 847px) {
   .photo-grid {
     padding: 20px 0 68px 0;
     grid-template-columns: calc(24 / 768 * 100%) 1fr calc(24 / 768 * 100%);
