@@ -9,13 +9,13 @@
   grid-template-rows: repeat(minmax(min-content, max-content));
 }
 
-@media (max-width: 1085.7931034483px) {
+@media (max-width: 1086px) {
   .places {
     grid-template-columns: calc(48 / 1024 * 100%) 1fr calc(48 / 1024 * 100%);
   }
 }
 
-@media (max-width: 847px) {
+@media (max-width: 859px) {
   .places {
     padding: 20px 0 70px 0;
     grid-template-columns: calc(24 / 768 * 100%) 1fr calc(24 / 768 * 100%);

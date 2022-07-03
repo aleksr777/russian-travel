@@ -12,7 +12,7 @@
   gap: 16px;
 }
 
-@media (max-width: 1085.7931034483px) {
+@media (max-width: 1086px) {
   .photo-grid__list {
     grid-template-columns: repeat(3, 32.3275862069%);
     grid-template-rows: repeat(auto-fill, 225px);
@@ -21,7 +21,7 @@
   }
 }
 
-@media (max-width: 847px) {
+@media (max-width: 859px) {
   .photo-grid__list {
     grid-template-columns: repeat(2, 48.8888888889%);
     grid-template-rows: repeat(auto-fill, 264px);

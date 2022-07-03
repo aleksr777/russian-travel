@@ -9,7 +9,20 @@
   grid-template-rows: minmax(min-content, max-content);
 }
 
-@media (max-width: 847px) {
+
+@media (max-width: 1120px) {
+  .billboard {
+    grid-template-columns: 1fr 1024px 1fr;
+  }
+}
+
+@media (max-width: 1040px) {
+  .billboard {
+    grid-template-columns: 1fr 100% 1fr;
+  }
+}
+
+@media (max-width: 859px) {
   .billboard {
     padding: 20px 0 68px 0;
   }
@@ -18,17 +31,5 @@
 @media (max-width: 540px) {
   .billboard {
     padding: 20px 0 44px 0;
-  }
-}
-
-@media (max-width: 1107px) {
-  .billboard {
-    grid-template-columns: 1fr 1024px 1fr;
-  }
-}
-
-@media (max-width: 1024px) {
-  .billboard {
-    grid-template-columns: 1fr 100% 1fr;
   }
 }

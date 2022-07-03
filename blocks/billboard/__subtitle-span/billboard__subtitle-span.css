@@ -1,0 +1,7 @@
+@media (max-width: 420px) {
+  .billboard__subtitle-span {
+    display: block;
+    width: 103%;
+    margin: 0 auto;
+  }
+}

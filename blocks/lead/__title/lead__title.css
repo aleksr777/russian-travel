@@ -10,13 +10,13 @@
   text-align: center;
 }
 
-@media (max-width: 847px) {
+@media (max-width: 859px) {
   .lead__title {
     padding: 0 3.125%;
   }
 }
 
-@media (max-width: 730px) {
+@media (max-width: 760px) {
   .lead__title {
     font-size: 80px;
   }
@@ -38,5 +38,6 @@
   .lead__title {
     font-size: 40px;
     line-height: 1.1;
+    margin: 0 auto 16px auto;
   }
 }

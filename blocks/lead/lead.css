@@ -9,20 +9,20 @@
   grid-template-rows: repeat(minmax(min-content, max-content));
 }
 
-@media (max-width: 1085.7931034483px) {
+@media (max-width: 1086px) {
   .lead {
     padding: 20px 0 68px 0;
-    grid-template-columns: 1fr calc((928 / 1024) * 100%) 1fr;
+    grid-template-columns: 1fr 90.625% 1fr;
   }
 }
 
-@media (max-width: 847px) {
+@media (max-width: 859px) {
   .lead {
     grid-template-columns: 1fr 768px 1fr;
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 784px) {
   .lead {
     display: block;
   }

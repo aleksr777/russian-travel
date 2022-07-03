@@ -15,3 +15,9 @@
     line-height: 1.14;
   }
 }
+
+@media (max-width: 420px) {
+  .billboard__subtitle {
+    width: 93%;
+  }
+}

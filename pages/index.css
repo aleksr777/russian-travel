@@ -54,6 +54,7 @@
 @import url(../blocks/billboard/__link/billboard__link.css);
 @import url(../blocks/billboard/__title/billboard__title.css);
 @import url(../blocks/billboard/__subtitle/billboard__subtitle.css);
+@import url(../blocks/billboard/__subtitle-span/billboard__subtitle-span.css);
 
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__menu/footer__menu.css);

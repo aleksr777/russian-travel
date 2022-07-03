@@ -5,17 +5,17 @@
   justify-content: space-between;
   grid-template-columns: 46.7479674797% 49.1869918699%;
   grid-template-rows: repeat(2, minmax(min-content, max-content));
-  gap: 32px 28px;
+  gap: 48px 28px;
   align-items: flex-start;
 }
 
-@media (max-width: 1085.7931034483px) {
+@media (max-width: 1086px) {
   .place {
     grid-template-columns: 47.4137931034% 49.1379310345%;
   }
 }
 
-@media (max-width: 847px) {
+@media (max-width: 859px) {
   .place {
     grid-template-columns: 47.2222222222% 48.8888888889%;
   }

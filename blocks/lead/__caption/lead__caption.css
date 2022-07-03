@@ -9,7 +9,7 @@
   margin: 0;
 }
 
-@media (max-width: 847px) {
+@media (max-width: 859px) {
   .lead__caption {
     padding: 0 3.125%;
   }

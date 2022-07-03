@@ -1,3 +1,4 @@
 .lead__image {
   grid-column: 2/3;
+  max-width: 100%;
 }

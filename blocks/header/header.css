@@ -11,13 +11,13 @@
   align-items: flex-end;
 }
 
-@media (max-width: 1085.7931034483px) {
+@media (max-width: 1086px) {
   .header {
     padding: 28px 0 28px 0;
   }
 }
 
-@media (max-width: 847px) {
+@media (max-width: 859px) {
   .header {
     grid-template-columns: 3.125% 1fr 1fr 3.125%;
   }

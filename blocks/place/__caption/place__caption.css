@@ -8,7 +8,7 @@
   text-transform: uppercase;
 }
 
-@media (max-width: 847px) {
+@media (max-width: 859px) {
   .place__caption {
     line-height: 1;
   }
