@@ -8,3 +8,9 @@
   flex-direction: column;
   row-gap: 80px;
 }
+
+@media (max-width: 620px) {
+  .places__list {
+    row-gap: 49px;
+  }
+}

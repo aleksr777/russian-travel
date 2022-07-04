@@ -6,11 +6,11 @@
   width: 100%;
   display: grid;
   grid-template-columns: 1fr 984px 1fr;
-  grid-template-rows: repeat(minmax(min-content, max-content));
+  grid-template-rows: minmax(min-content, max-content);
 }
 
 @media (max-width: 1086px) {
-  .intro{
+  .intro {
     grid-template-columns: calc(48 / 1024 * 100%) 1fr calc(48 / 1024 * 100%);
   }
 }
